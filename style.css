@@ -181,4 +181,170 @@ footer{
     background: #050816;
     color: azure;
 
+
+}
+/* =========================
+TABLET VIEW (max-width: 992px)
+========================= */
+
+@media (max-width:992px){
+
+nav{
+flex-direction:column;
+gap:10px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.planets{
+grid-template-columns:repeat(2,1fr);
+padding:30px;
+}
+
+.gallery{
+grid-template-columns:repeat(2,1fr);
+}
+
+.mission-container{
+grid-template-columns:1fr;
+}
+
+}
+
+
+/* =========================
+MOBILE VIEW (max-width:600px)
+========================= */
+
+@media (max-width:600px){
+
+nav{
+flex-direction:column;
+text-align:center;
+}
+
+nav ul{
+flex-direction:column;
+padding:0;
+}
+
+nav ul li{
+margin:10px 0;
+}
+
+.hero{
+padding:80px 15px;
+}
+
+.hero h1{
+font-size:30px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.planets{
+grid-template-columns:1fr;
+padding:20px;
+}
+
+.card img{
+height:180px;
+}
+
+.gallery{
+grid-template-columns:1fr;
+padding:30px;
+}
+
+button{
+width:100%;
+max-width:200px;
+}
+
+}/* =========================
+TABLET VIEW (max-width: 992px)
+========================= */
+
+@media (max-width:992px){
+
+nav{
+flex-direction:column;
+gap:10px;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.planets{
+grid-template-columns:repeat(2,1fr);
+padding:30px;
+}
+
+.gallery{
+grid-template-columns:repeat(2,1fr);
+}
+
+.mission-container{
+grid-template-columns:1fr;
+}
+
+}
+
+
+/* =========================
+MOBILE VIEW (max-width:600px)
+========================= */
+
+@media (max-width:600px){
+
+nav{
+flex-direction:column;
+text-align:center;
+}
+
+nav ul{
+flex-direction:column;
+padding:0;
+}
+
+nav ul li{
+margin:10px 0;
+}
+
+.hero{
+padding:80px 15px;
+}
+
+.hero h1{
+font-size:30px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.planets{
+grid-template-columns:1fr;
+padding:20px;
+}
+
+.card img{
+height:180px;
+}
+
+.gallery{
+grid-template-columns:1fr;
+padding:30px;
+}
+
+button{
+width:100%;
+max-width:200px;
+}
+
 }
